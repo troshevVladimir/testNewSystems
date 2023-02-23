@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="header container">
+    <a href="/" class="header__logo">Material Kit 2 PRO</a>
+    <div class="header__menu">
+      <div class="header__dropdown dropdown">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="12" y="3.75" width="5.25" height="3.75" rx="1" transform="rotate(-180 12 3.75)" fill="white"/>
+          <rect width="5.25" height="7.5" rx="1" fill="white"/>
+          <rect y="8.25" width="5.25" height="3.75" rx="1" fill="white"/>
+          <rect x="12" y="12" width="5.25" height="7.5" rx="1" transform="rotate(-180 12 12)" fill="white"/>
+        </svg>
+        <span>Pages</span>
+      </div>
+      <div class="header__dropdown dropdown">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="12" y="3.75" width="5.25" height="3.75" rx="1" transform="rotate(-180 12 3.75)" fill="white"/>
+          <rect width="5.25" height="7.5" rx="1" fill="white"/>
+          <rect y="8.25" width="5.25" height="3.75" rx="1" fill="white"/>
+          <rect x="12" y="12" width="5.25" height="7.5" rx="1" transform="rotate(-180 12 12)" fill="white"/>
+        </svg>
+        <span>Account</span>
+      </div>
+      <div class="header__dropdown dropdown">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="12" y="3.75" width="5.25" height="3.75" rx="1" transform="rotate(-180 12 3.75)" fill="white"/>
+          <rect width="5.25" height="7.5" rx="1" fill="white"/>
+          <rect y="8.25" width="5.25" height="3.75" rx="1" fill="white"/>
+          <rect x="12" y="12" width="5.25" height="7.5" rx="1" transform="rotate(-180 12 12)" fill="white"/>
+        </svg>
+        <span>Sections</span>
+      </div>
+      <div class="header__dropdown dropdown">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="12" y="3.75" width="5.25" height="3.75" rx="1" transform="rotate(-180 12 3.75)" fill="white"/>
+          <rect width="5.25" height="7.5" rx="1" fill="white"/>
+          <rect y="8.25" width="5.25" height="3.75" rx="1" fill="white"/>
+          <rect x="12" y="12" width="5.25" height="7.5" rx="1" transform="rotate(-180 12 12)" fill="white"/>
+        </svg>
+        <span>Docs</span>
+      </div>
+      <button class="header__button button">
+        BUY NOW
+      </button>
+    </div>
+    <button class="header__burger-menu button">
+      <span></span>
+    </button>
+  </header>
+  <main>
+    <section class="front-slider">
+      <div class="front-slider__slides">
+        <div class="front-slider__slide" style="background-image: url('./img/slide1.jpg');">
+          <div class="front-slider__container" >
+            <h1 class="front-slider__title title">Work with an amazing tool</h1>
+            <p class="front-slider__sub-title">We’re constantly trying to express ourselves and actualize our dreams. If you have the
+              opportunity to play this game</p>
+            <button class="front-slider__button button">CREATE ACCOUNT</button>
+          </div>
+        </div>
+        <div class="front-slider__slide" style="background-image: url('./img/slide2.jpg');">
+          <div class="front-slider__container front-slider__container--align-left" >
+            <h1 class="front-slider__title title">Material Kit</h1>
+            <p class="front-slider__sub-title">The time is now for it be okay to be great. People in this world shun people for being nice.</p>
+            <div >
+              <button class="front-slider__button button">GET STARTED</button>
+              <a href="#" class="front-slider__link">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="front-slider__slide" style="background-image: url('./img/slide3.jpg');">
+          <div class="front-slider__container" >
+            <h1 class="front-slider__title title">Book your next trip</h1>
+            <p class="front-slider__sub-title">We’re constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="front-slider__nav">
+        <!-- <div class="front-slider__nav-item"></div> -->
+      </div>
+
+      <div class="front-slider__btns container">
+        <div class="front-slider__btn-prev"></div>
+        <div class="front-slider__btn-next"></div>
+      </div>
+    </section>
+
+    <div class="content-container">
+      <section class="blog-post">
+        <div class="container">
+          <h2 class="title blog-post__title" >Check my latest blogspots</h2>
+          <div class="blog-post__cards" id="blog">
+            <article class="blog-post__card card card-image " style="background-image: url('./img/img-card.png');">
+              <h2 class="card-image__title">Flexible work hours</h2>
+              <a class="card-image__read-more card__read-more" href="#">
+                Read More
+                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.23004 9.50791L3.23004 8.17458L11.23 8.17458L7.56337 4.50791L8.51004 3.56125L13.79 8.84125L8.51004 14.1212L7.56337 13.1746L11.23 9.50791L3.23004 9.50791Z"/>
+                </svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <section class="subscribe">
+          <div class="subscribe__content">
+            <h2 class="subscribe__title title">Be the first to see the news</h2>
+            <p class="subscribe__subtitle">
+              Your company may not be in the software business, but eventually, a software company will be in your business.
+            </p>
+            <form class="subscribe__form form" id="subscribe-form">
+              <input name="email" id="email-input" type="text" placeholder="Email Here...">
+              <input name="promo" id="code-input" type="text" placeholder="Promo code here...">
+              <button type="submit" class="button button--blue">
+                SUBSCRIBE
+              </button>
+              <span class="subscribe-error" id="form-error"></span>
+            </form>
+          </div>
+          <img src="./img/macBook.png" alt="mac Book">
+        </section>
+      </div>
+    </div>
+  </main>
+  <div class="modal-bg hide">
+    <div class="modal">
+      <p id="modal-message"></p>
+    </div>
+  </div>
+
+</body>
+</html>
